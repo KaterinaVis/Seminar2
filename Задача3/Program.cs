@@ -6,8 +6,8 @@ Console.WriteLine("Введите первое число ");
 String input = Console.ReadLine();
 int numberA = Convert.ToInt32(input);
 Console.WriteLine("Введите второе число ");
-input = Console.ReadLine();
-int numberB = Convert.ToInt32(input);
+String input2 = Console.ReadLine();
+int numberB = Convert.ToInt32(input2);
 
 double div = numberA / numberB;
 
