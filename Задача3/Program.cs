@@ -6,8 +6,8 @@ Console.WriteLine("Введите первое число ");
 String input = Console.ReadLine();
 int numberA = Convert.ToInt32(input);
 Console.WriteLine("Введите второе число ");
-String input2 = Console.ReadLine();
-int numberB = Convert.ToInt32(input2);
+String input2 = Console.ReadLine(); // без стринг тоже работает если тут инпут без двойки
+int numberB = Convert.ToInt32(input2); // и тут тоже тогда инпут без двойки
 
 double div = numberA / numberB;
 
