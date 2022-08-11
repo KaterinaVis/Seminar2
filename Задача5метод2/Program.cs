@@ -17,7 +17,7 @@ Console.WriteLine("No");
 }
 
 int SqrNumber(int number) //  метод квадрата числа
-{
+
 {
 return number * number;
 }
